@@ -21,5 +21,8 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Compilate witg gava
+    - name: Compilate with gava
       run: javac src/Main.java
+    
+    -name: Run Code
+     run: java src/Main
