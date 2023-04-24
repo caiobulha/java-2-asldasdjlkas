@@ -25,4 +25,4 @@ jobs:
       run: javac src/Main.java
     
     - name: Run Code
-      run: java src/Main
+      run: java Main
